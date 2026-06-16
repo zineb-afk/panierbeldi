@@ -24,13 +24,12 @@ const seedIfEmpty = async () => {
 const getAll = async (req, res) => {
   try {
     await seedIfEmpty();
-    const products = await Product.find({ active: true }).sort({ createdAt: -1 });
+    const products = await Product.find().sort({ createdAt: -1 });
     res.json(products);
   } catch (err) {
     res.status(500).json({ message: 'Erreur serveur', error: err.message });
   }
 };
-
 const create = async (req, res) => {
   try {
     const product = new Product(req.body);

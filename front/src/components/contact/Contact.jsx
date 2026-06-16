@@ -47,7 +47,7 @@ const Contact = () => {
             <div className="info-card">
               <span className="info-card-icon">📞</span>
               <h3>Téléphone</h3>
-              <p>+212 5 22 XX XX XX</p>
+              <p>+212 5 25 44 74 04</p>
               <span className="info-hours">Lun – Sam: 9h – 18h</span>
             </div>
             <div className="info-card">
@@ -59,12 +59,12 @@ const Contact = () => {
             <div className="info-card">
               <span className="info-card-icon">📍</span>
               <h3>Adresse</h3>
-              <p>12 Rue des Artisans,<br />Marrakech, Maroc</p>
+              <p>12 Rue des Artisans,<br />FES, Maroc</p>
             </div>
             <div className="info-card">
               <span className="info-card-icon">💬</span>
               <h3>WhatsApp</h3>
-              <p>+212 6 XX XX XX XX</p>
+              <p>+212 6 11 41 79 55</p>
               <span className="info-hours">Réponse rapide</span>
             </div>
 
